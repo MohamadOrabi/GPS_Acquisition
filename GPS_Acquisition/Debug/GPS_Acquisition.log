@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(128): warning C4101: 'p': unreferenced local variable
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(127): warning C4101: 'out': unreferenced local variable
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(127): warning C4101: 'in': unreferenced local variable
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(41): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(59): note: see reference to function template instantiation 'void loadBinaryToVector<short>(std::vector<short,std::allocator<_Ty>> &,const std::string,int)' being compiled
+          with
+          [
+              _Ty=short
+          ]
+  GPS_Acquisition.vcxproj -> C:\Users\Mohammad\Desktop\Orabi\GPS_Acquisition\Debug\GPS_Acquisition.exe

@@ -1,0 +1,122 @@
+﻿  Channel.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.h(61): warning C4244: 'argument': conversion from 'const fp_precision' to 'const int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(30): warning C4244: 'argument': conversion from 'const fp_precision' to 'const int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(121): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(182): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(193): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(297): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(319): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(357): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(370): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(378): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(526): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(591): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(618): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(622): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'double', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.cpp(670): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  FileReader.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.h(61): warning C4244: 'argument': conversion from 'const fp_precision' to 'const int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\filereader.cpp(36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\filereader.cpp(74): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\filereader.cpp(77): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  GPS_Utils.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(24): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(43): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(62): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'const std::complex<double>::_Ty', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(63): warning C4244: 'argument': conversion from 'Eigen::EigenBase<Derived>::Index' to 'const std::complex<double>::_Ty', possible loss of data
+          with
+          [
+              Derived=Eigen::Array<std::complex<double>,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(78): warning C4244: 'argument': conversion from 'const double' to 'Eigen::Index', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(85): warning C4244: 'argument': conversion from 'const double' to 'const unsigned __int64', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(88): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(262): warning C4244: '=': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(264): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(275): warning C4244: '=': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(277): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+          ]
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(286): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(321): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\gps_utils.cpp(337): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\channel.h(61): warning C4244: 'argument': conversion from 'const fp_precision' to 'const int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(97): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(269): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(70): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\main.cpp(97): note: see reference to function template instantiation 'void loadBinaryToVector<SampleIQData>(std::vector<SampleIQData,std::allocator<_Ty>> &,const std::string,int,const int)' being compiled
+          with
+          [
+              _Ty=SampleIQData
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xutility(3505): note: see reference to function template instantiation 'bool std::_Within_limits<_InIt,_Ty>(_InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=const char *,
+              _Ty=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xutility(3533): note: see reference to function template instantiation '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::true_type)' being compiled
+          with
+          [
+              _InIt=const char *,
+              _Ty=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xlocnum(93): note: see reference to function template instantiation '_InIt std::_Find_unchecked<const _Elem*,_Elem>(const _InIt,const _InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=const char *,
+              _Elem=char,
+              _Ty=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xlocnum(978): note: see reference to function template instantiation 'size_t std::_Find_elem<_Elem,15>(const _Elem (&)[15],const _Elem)' being compiled
+          with
+          [
+              _Elem=char
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xlocnum(932): note: while compiling class template member function 'int std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>::_Getffld(char *,_InIt &,_InIt &,std::ios_base &,int *) const'
+          with
+          [
+              _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xlocnum(729): note: see reference to function template instantiation 'int std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>::_Getffld(char *,_InIt &,_InIt &,std::ios_base &,int *) const' being compiled
+          with
+          [
+              _InIt=std::istreambuf_iterator<char,std::char_traits<char>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.16.27023\include\xlocnum(1850): note: see reference to class template instantiation 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' being compiled
+  parameters.cpp
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\parameters.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\mohammad\desktop\orabi\gps_acquisition\gps_acquisition\parameters.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+  GPS_Acquisition.vcxproj -> C:\Users\Mohammad\Desktop\Orabi\GPS_Acquisition\x64\Debug\GPS_Acquisition.exe

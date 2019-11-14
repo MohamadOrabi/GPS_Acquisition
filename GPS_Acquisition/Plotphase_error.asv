@@ -1,0 +1,27 @@
+clc; clear all;
+%close all;
+sats = [31];
+sats = [3,14,22,31];
+
+
+for sat = sats
+    phase_filename = "phase_error_"+sat+".csv";
+    if exist(phase_filename, 'file')
+
+        phase_error = csvread("phase_error_"+sat+".csv");
+        figure
+        hold on
+        plot((1:length(phase_error(1:end-1)))/1000-1,phase_error(1:end-1)*180/pi);
+        plot((1:length(phase_error(1:end-1)))/1000-1,ones(1,length(phase_error)-1)*90,'r')
+        plot((1:length(phase_error(1:end-1)))/1000-1,ones(1,length(phase_error)-1)*-90,'r')
+
+        title(['PRN# ',num2str(sat)]);
+        legend("Phase Error");
+        title(['PRN# ',num2str(sat)]);
+%         stdii = [];
+%         for ii = 1:length(phase_error)-1000
+%             stdii(ii) = norm(phase_error(ii:ii+1000))/sqrt(1000);
+%         end
+%         figure; plot((1:length(stdii))/1000, stdii, (1:length(stdii))/1000, 0*stdii + 0.35,'--')
+    end
+end

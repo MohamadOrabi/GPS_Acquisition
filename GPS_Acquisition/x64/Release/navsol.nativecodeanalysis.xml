@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mohammad\downloads\eigen-eigen-323c052e1731\eigen-eigen-323c052e1731\eigen\src\core\products</FILEPATH>
+      <FILENAME>generalmatrixmatrix.h</FILENAME>
+      <LINE>162</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>Eigen::internal::general_matrix_matrix_product&lt;__int64,double,1,0,double,0,0,0&gt;::run</FUNCTION>
+    <DECORATED>?run@?$general_matrix_matrix_product@_JN$00$0A@N$0A@$0A@$0A@@internal@Eigen@@SAX_J00PEBN010PEAN0NAEAV?$level3_blocking@NN@23@PEAU?$GemmParallelInfo@_J@23@@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mohammad\downloads\eigen-eigen-323c052e1731\eigen-eigen-323c052e1731\eigen\src\core\products</FILEPATH>
+      <FILENAME>generalmatrixmatrix.h</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>Eigen::internal::general_matrix_matrix_product&lt;__int64,double,1,0,double,0,0,0&gt;::run</FUNCTION>
+    <DECORATED>?run@?$general_matrix_matrix_product@_JN$00$0A@N$0A@$0A@$0A@@internal@Eigen@@SAX_J00PEBN010PEAN0NAEAV?$level3_blocking@NN@23@PEAU?$GemmParallelInfo@_J@23@@Z</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\mohammad\downloads\eigen-eigen-323c052e1731\eigen-eigen-323c052e1731\eigen\src\core\products</FILEPATH>
+      <FILENAME>generalblockpanelkernel.h</FILENAME>
+      <LINE>927</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>Eigen::internal::gebp_kernel&lt;double,double,__int64,Eigen::internal::blas_data_mapper&lt;double,__int64,0,0&gt;,4,4,0,0&gt;::()</FUNCTION>
+    <DECORATED>??R?$gebp_kernel@NN_JV?$blas_data_mapper@N_J$0A@$0A@@internal@Eigen@@$03$03$0A@$0A@@internal@Eigen@@QEAAXAEBV?$blas_data_mapper@N_J$0A@$0A@@12@PEBN1_J22N2222@Z</DECORATED>
+    <FUNCLINE>893</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
